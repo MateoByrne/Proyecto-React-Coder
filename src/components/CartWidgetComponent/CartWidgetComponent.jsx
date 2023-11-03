@@ -1,10 +1,11 @@
-
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faCartShopping} from '@fortawesome/free-solid-svg-icons'
 
 const CartWidgetComponent = () => {
     return (
         <div>
-            <span>icono</span>
-            <span>10</span>
+        <FontAwesomeIcon icon={faCartShopping} style={{paddingRight: '10px'}}/>
+        <span></span>
         </div>
     )
 }
